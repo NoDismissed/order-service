@@ -1,0 +1,47 @@
+# =========================
+# Python / bytecode
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+
+# =========================
+# Environment files (secrets)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Git & tooling
+# =========================
+.git/
+.gitignore
+.github/
+
+# =========================
+# Tests & local artifacts
+# =========================
+tests/
+pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Editors / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# Docker compose & local infra
+# =========================
+docker-compose.yml

@@ -1,0 +1,50 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Test & coverage artifacts
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Editor / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# Docker local data
+# =========================
+postgres_data/
+order_db_data/
+
+# =========================
+# Alembic artifacts
+# =========================
+alembic/versions/__pycache__/
+
+# =========================
+# Logs
+# =========================
+*.log
