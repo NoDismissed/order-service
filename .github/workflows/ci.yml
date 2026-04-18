@@ -27,6 +27,7 @@ jobs:
 
     env:
       DATABASE_URL: postgresql+psycopg://user:password@localhost:5432/db_test
+      ORDER_SERVICE_PORT: 50052
 
     steps:
       - name: Checkout code
