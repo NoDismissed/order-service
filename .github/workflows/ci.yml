@@ -1,4 +1,4 @@
-name: User Service CI
+name: Order Service CI
 
 on:
   push:
